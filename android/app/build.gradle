@@ -218,7 +218,7 @@ android {
             keyPassword 'android'
         }
         releaseSigningConfig {
-                    storeFile rootProject.file("app/yourKeystoreName.keystore")
+                    storeFile rootProject.file("app/app-center-publish.keystore")
                     storePassword System.getProperty("APPCENTER_KEYSTORE_PASSWORD")
                     keyAlias System.getProperty("APPCENTER_KEY_ALIAS")
                     keyPassword System.getProperty("APPCENTER_KEY_PASSWORD")
